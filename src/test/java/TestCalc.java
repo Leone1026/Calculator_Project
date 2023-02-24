@@ -32,7 +32,7 @@ public class TestCalc {
     @Tag("Tag 2")
     public void testAddWithNegative() {
         Calculator calc = new Calculator();
-        Assertions.assertEquals(-5, calc.Add(-2, -3) );
+        Assertions.assertEquals(-6, calc.Add(-2, -3) );
     }
 
 
